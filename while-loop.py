@@ -12,12 +12,21 @@
 #     i += 1
 
 
-x=1
-while x < 5:
-    print(x)
-    x += 1
-else:
-    print('limit reached')
+# x=1
+# while x < 5:
+#     print(x)
+#     x += 1
+# else:
+#     print('limit reached')
+
+total_num= int(input("how many obstacles must be avoid"))
+avoid = 0
+
+while avoid < total_num:
+    print("avoiding ..." , end=" ")
+    avoid += 1
+    print(avoid)
+
 
 
 
